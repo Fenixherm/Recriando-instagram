@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0.39);
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    width: 60%;
+}
+
+.phone-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.phone-img img {
+    width: 700px;
+}
+
+.account-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+}
+
+.login-img {
+    margin-bottom: 15px;
+}
+
+.login-img:first-child{
+    height: 48px;
+}
+
+.login-img:last-child{
+    height: 100%;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-continue {
+    color: white;
+    background-color: #0095f6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.btn-container a:last-child{
+    color: #0095f6;
+}
+
+.change-account {
+    display: flex;
+    flex-direction: column;
+}
+
+.change-account p {
+    color: rgb(160, 160, 160);
+}
+
+.span-account {
+    color: #0095f6;
+}
+
+.get-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+.download {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-app{
+    height: 40px;
+    width: 135px;
+    background-size: cover;
+}
+
+.img-app:first-child{
+    background-image: url('../img/apple-button.png');
+}
+
+.img-app:last-child{
+    background-image: url('../img/googleplay-button.png');
+}
